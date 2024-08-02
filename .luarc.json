@@ -1,0 +1,17 @@
+{
+    "hint.arrayIndex" : "Enable",
+    "hint.enable": true,
+    "workspace.checkThirdParty": "Apply",
+    "workspace.userThirdParty": ["~/learn/lua/add_ons"],
+    "runtime.version": "LuaJIT",
+    "runtime.special": {
+        "love.filesystem.load": "loadfile"
+    },
+    "workspace.library": [
+        "/Users/markoristic/.local/share/nvim/lazy/neodev.nvim/types/stable",
+        "/usr/local/Cellar/neovim/0.10.1/share/nvim/runtime/lua",
+        "/Users/markoristic/learn/lua",
+        "${3rd}/love2d/library",
+        "${3rd}/luv/library",
+    ],
+}
